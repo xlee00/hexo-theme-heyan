@@ -30,12 +30,10 @@ widgets_right:
 
 
 widgets_links:
-  - title: csdn
-    url: https://blog.csdn.net/smileyan9
-  - title: 笑颜网
-    url: https://smileyan.cn
-  - title: Hexo
-    url: https://hexo.io
+  - title: github-xlee00
+    url: https://github.com/xlee00
+  - title: Hexo-xlee00
+    url: https://xlee00.github.io/
 
 
 # 默认情况下展示的分类，标签，最近的
@@ -44,15 +42,15 @@ widgets_links:
 # rule 递增或递减
 widgets_default_show:
   category:
-    length: 10
+    length: 15
     sort_by: length # length | name
     rule: desc      # desc | asc
   tag: 
-    length: 10
+    length: 50
     sort_by: name   # length | name
     rule: desc      # desc | asc
   recent:
-    length: 5
+    length: 10
     sort_by: date   # date | updated
     rule: desc      # desc | asc
 
@@ -61,4 +59,4 @@ fancybox: true
 mathjax: true
 
 # 备案号
-beian: 湘ICP备 17012851号
+beian: 无备案
