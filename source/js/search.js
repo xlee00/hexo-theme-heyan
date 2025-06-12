@@ -25,6 +25,7 @@ var searchFunc = function(path, search_id, content_id) {
                     if (this.value.trim().length <= 0) {
                         return;
                     }
+                    str += "<li class='list-group-item tag-hover' >搜索结果： \""+keywords+"\"</li>";
                     // perform local searching
                     datas.forEach(function (data) {
                         var isMatch = true;
